@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Gabriel Menezes Rezende</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 0 10px;
+        }
+
+        header, nav, section, footer {
+            margin-bottom: 20px;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+            background-color: #333;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        #hero {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #ddd;
+        }
+
+        #about img {
+            display: block;
+            margin: 0 auto 10px auto;
+            border-radius: 50%;
+        }
+
+        #servicos, #projetos, #skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        article {
+            width: calc(33% - 10px);
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        #contato form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <h1>Olá, eu sou Gabriel Menezes Rezende</h1>
+        <p>Desenvolvedor Web & Apaixonado por Tecnologia</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <img src="https://raw.githubusercontent.com/gabrielmenezesr/portfolio-html-gabriel/refs/heads/main/imagens/IMG_7291.JPG" alt="Foto de Gabriel Menezes Rezende" width="200">
+        <p>Sou um desenvolvedor web dedicado a criar experiências digitais incríveis. Minha paixão por tecnologia me impulsiona a aprender constantemente e a buscar soluções inovadoras. Estou sempre pronto para encarar novos desafios e transformar ideias em realidade.</p>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <article>
+            <h3>Desenvolvimento Web</h3>
+            <p>Criação de sites responsivos, rápidos e modernos, adaptados para todos os dispositivos.</p>
+        </article>
+
+        <article>
+            <h3>Otimização de SEO</h3>
+            <p>Melhoria do desempenho do site para melhor ranqueamento nos motores de busca.</p>
+        </article>
+
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos">
+        <h2>Projetos Recentes</h2>
+        <article>
+            <img src="https://raw.githubusercontent.com/gabrielmenezesr/portfolio-html-gabriel/refs/heads/main/imagens/cr7.jpg" alt="Projeto 1" width="300">
+            <h3>CR7</h3>
+            <p>Um projeto simples em HTML que traz algumas curiosidades sobre o jogador de futebol Cristiano Ronaldo.</p>
+        </article>
+
+        <article>
+            <img src="https://raw.githubusercontent.com/gabrielmenezesr/portfolio-html-gabriel/refs/heads/main/imagens/loto.jpg" alt="Projeto 1" width="300">
+            <h3>Loto Fácil</h3>
+            <p>PROJETO LOTOFÁCIL, criado em Java que demonstra com interface gráfica um simulador de apostas bastante conhecido chamado "LotoFácil".</p>
+        </article>
+
+        <article>
+            <img src="https://raw.githubusercontent.com/gabrielmenezesr/portfolio-html-gabriel/refs/heads/main/imagens/piadas.jpg" alt="Projeto 1" width="300">
+            <h3>Piadas</h3>
+            <p>Um projeto simples em HTML que exibe piadas engraçadas e interativas, permitindo ao usuário revelar a resposta com um clique.</p>
+        </article>
+
+
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div>
+            <h3>Hard Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>JAVA</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Trabalho em Equipe</li>
+                <li>Comunicação</li>
+                <li>Persistente</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form>
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 Gabriel Menezes Rezende. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="https://www.instagram.com/gabrielmenezesr_/">Instagram</a></li>
+            <li><a href="https://github.com/gabrielmenezesr">GitHub</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
