@@ -1,15 +1,15 @@
 # portfolio-html-gabriel
 
-Portfólio - Gabriel Menezes Rezende
+# Portfólio - Gabriel Menezes Rezende
 
 Este é um projeto de portfólio pessoal desenvolvido em HTML e CSS para apresentar meus projetos, habilidades e informações de contato.
 
-🔗 Link de Acesso
+# 🔗 Link de Acesso
 
 Você pode visualizar o projeto online através do seguinte link:
 Acessar Portfólio (adicione o link quando hospedar o projeto)
 
-📌 Funcionalidades
+# 📌 Funcionalidades
 
 Navegação interna entre as seções via #id.
 
@@ -19,7 +19,7 @@ Layout responsivo para diferentes dispositivos.
 
 Formulário de contato funcional (HTML padrão).
 
-📁 Estrutura do Projeto
+# 📁 Estrutura do Projeto
 
 portfolio-html-gabrielmenezesrezende/
 │-- imagens/                  # Pasta com imagens do projeto
@@ -27,17 +27,14 @@ portfolio-html-gabrielmenezesrezende/
 │-- style.css                   # Arquivo CSS para estilização
 │-- README.md                   # Documentação do projeto
 
-📷 Capturas de Tela (opcional)
 
-(Adicione aqui prints do projeto quando disponível)
-
-🚀 Tecnologias Utilizadas
+# 🚀 Tecnologias Utilizadas
 
 HTML5
 
-CSS3
+CSS
 
-⚙️ Como Executar o Projeto
+# ⚙️ Como Executar o Projeto
 
 Clone este repositório:
 
@@ -45,7 +42,7 @@ git clone https://github.com/gabrielmenezesr/portfolio-html-gabrielmenezesrezend
 
 Acesse a pasta do projeto e abra o arquivo index.html no navegador.
 
-🛠 Melhorias Futuras
+# 🛠 Melhorias Futuras
 
 Implementação de JavaScript para maior interatividade.
 
@@ -53,7 +50,7 @@ Integração com um backend para tornar o formulário funcional.
 
 Adicionar novos projetos conforme forem desenvolvidos.
 
-📬 Contato
+# 📬 Contato
 
 Instagram: @gabrielmenezesr_
 
